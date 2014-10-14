@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="373aa39b-419a-4196-a39a-2d0653b5804c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devopsmgr/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxjh/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxjh/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxjh/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxjh/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devopsmgr/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxjh/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devopsmgr/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devopsmgr/wsgi.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="devopsmgr.iws" />
@@ -161,7 +151,11 @@
       <created>1413272773794</created>
       <updated>1413272773794</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="startproject devopsmgr &#10;manage.py startapp hxjh">
+      <created>1413272852247</created>
+      <updated>1413272852247</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
