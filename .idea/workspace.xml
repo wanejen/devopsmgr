@@ -155,7 +155,11 @@
       <created>1413272852247</created>
       <updated>1413272852247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="startproject devopsmgr &#10;manage.py startapp hxjh">
+      <created>1413272859222</created>
+      <updated>1413272859222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
