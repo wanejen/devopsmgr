@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="373aa39b-419a-4196-a39a-2d0653b5804c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hxjh/models.py" afterPath="$PROJECT_DIR$/hxjh/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="devopsmgr.iws" />
@@ -355,7 +354,11 @@
       <created>1414412704551</created>
       <updated>1414412704551</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="新增models.hxjh_platform">
+      <created>1414413078472</created>
+      <updated>1414413078472</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -401,7 +404,8 @@
     <MESSAGE value="startproject devopsmgr" />
     <MESSAGE value="startproject devopsmgr &#10;manage.py startapp hxjh" />
     <MESSAGE value="新增models" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增models" />
+    <MESSAGE value="新增models.hxjh_platform" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增models.hxjh_platform" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
