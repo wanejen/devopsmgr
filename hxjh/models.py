@@ -16,6 +16,13 @@ class Hxjh_Machine(models.Model):
     created_date = models.DateTimeField(auto_now_add=True)
     last_modified_date = models.DateTimeField(auto_now=True)
 
+class Hxjh_Platform(models.Model):
+    name = models.CharField(max_length=100, blank=False)
+    location = models.CharField(max_length=10, blank=False)
+    p_status = models.PositiveSmallIntegerField(default=0)
+    created_date = models.DateTimeField(auto_now_add=True)
+    last_modified_date = models.DateTimeField(auto_now=True)
+
 class Hxjh_Serverlist(models.Model):
     name = models.CharField(max_length=100, blank=False)
     location = models.CharField(max_length=10, blank=False)
