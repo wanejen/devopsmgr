@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="373aa39b-419a-4196-a39a-2d0653b5804c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hxjh/models.py" afterPath="$PROJECT_DIR$/hxjh/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hxjh/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devopsmgr/urls.py" afterPath="$PROJECT_DIR$/devopsmgr/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hxjh/views.py" afterPath="$PROJECT_DIR$/hxjh/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hxjh/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5100671" vertical-offset="0" max-vertical-offset="1178">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="-23.56" vertical-offset="0" max-vertical-offset="1178">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/devopsmgr/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -54,10 +54,20 @@
         <entry file="file://$PROJECT_DIR$/hxjh/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hxjh/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.062023938" vertical-offset="0" max-vertical-offset="919">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,9 +89,9 @@
         <option value="$PROJECT_DIR$/hxjh/__init__.py" />
         <option value="$PROJECT_DIR$/devopsmgr/__init__.py" />
         <option value="$PROJECT_DIR$/hxjh/models.py" />
-        <option value="$PROJECT_DIR$/hxjh/urls.py" />
         <option value="$PROJECT_DIR$/devopsmgr/urls.py" />
         <option value="$PROJECT_DIR$/hxjh/views.py" />
+        <option value="$PROJECT_DIR$/hxjh/urls.py" />
       </list>
     </option>
   </component>
@@ -408,7 +418,11 @@
       <created>1414486109351</created>
       <updated>1414486109351</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="简单测试">
+      <created>1414487899839</created>
+      <updated>1414487899839</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -457,11 +471,12 @@
     <MESSAGE value="新增models.hxjh_platform" />
     <MESSAGE value="增加hxjh在devopsmgr的配置" />
     <MESSAGE value="同步表结构到数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="同步表结构到数据库" />
+    <MESSAGE value="简单测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -540,10 +555,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hxjh/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.56" vertical-offset="0" max-vertical-offset="1178">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/devopsmgr/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -553,17 +576,17 @@
     <entry file="file://$PROJECT_DIR$/hxjh/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="8" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hxjh/models.py">
+    <entry file="file://$PROJECT_DIR$/hxjh/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5100671" vertical-offset="0" max-vertical-offset="1178">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.062023938" vertical-offset="0" max-vertical-offset="919">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>
