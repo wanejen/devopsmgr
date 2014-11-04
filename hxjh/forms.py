@@ -1,4 +1,6 @@
+# -*- coding: UTF-8 -*-
 __author__ = 'seiou'
+
 from django import forms
 
 class f_serverlist(forms.Form):

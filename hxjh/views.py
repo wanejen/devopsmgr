@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 from django.shortcuts import render_to_response
 from hxjh.models import Serverlist
 from hxjh.forms import f_serverlist
