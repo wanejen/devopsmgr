@@ -1,7 +1,8 @@
 from django.conf.urls import url
-from hxjh.views import search, index
+from hxjh.views import *
 
 urlpatterns = [
     url(r'search/$', search),
     url(r'index/$',index),
+    url(r'contact/$', contact)
 ]

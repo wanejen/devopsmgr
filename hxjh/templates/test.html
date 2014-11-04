@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Search</title>
+</head>
+<body>
+    {% if errors %}
+        <ul>
+            {% for error in errors %}
+                <p style="color: red;">{{error}}</p>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <form action="" method="get">
+        <input type="text" name="q">
+        <input type="submit" name="Search">
+    </form>
+</body>
+</html>
