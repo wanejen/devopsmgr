@@ -20,6 +20,7 @@ class Platform(models.Model):
     name = models.CharField(max_length=100, blank=False)
     location = models.CharField(max_length=10, blank=False)
     p_status = models.PositiveSmallIntegerField(default=0)
+    remarks = models.CharField(max_length=500, blank=True)      ## 备注,记录该渠道的使用,如youai代表国内混服
     created_date = models.DateTimeField(auto_now_add=True)
     last_modified_date = models.DateTimeField(auto_now=True)
 
@@ -28,6 +29,7 @@ class Serverlist(models.Model):
     location = models.CharField(max_length=10, blank=False)
     open_time = models.DateTimeField(blank=False)   #开服时间
     type = models.PositiveSmallIntegerField(default=0)   ##默认blank=False；服务器类型(正常、合服 ...)
+    platform = models.ForeignKey("Platform", related_name="p_servers")
     domain_name = models.CharField(max_length=30, blank=False)
     login_port = models.PositiveSmallIntegerField(blank=False)
     backend_url = models.SlugField(max_length=30, blank=False)
